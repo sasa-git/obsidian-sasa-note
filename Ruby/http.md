@@ -1,0 +1,1 @@
+[RubyのHTTPリクエストをできるだけシンプルに実装する](https://qiita.com/takano-h/items/dd10818eb7e09161bc29#get-1)

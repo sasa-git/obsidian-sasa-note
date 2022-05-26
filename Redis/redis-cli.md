@@ -1,0 +1,1 @@
+[redis-cli コマンド操作まとめ](https://qiita.com/rubytomato@github/items/d66d932959d596876ab5#set--setnx--get)
