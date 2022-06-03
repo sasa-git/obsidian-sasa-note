@@ -2,3 +2,6 @@
 `$ mix deps.unlock --unused`
 
 [ライブラリ探すのに良さそうなサイト](https://libs.garden/elixir/search?q=redis+session)
+
+[mix.exsのapplicationsとextra_applicationsは何が違うのか](https://qiita.com/Tsuyoshi84/items/26eb65e92c7974dd163c)
+

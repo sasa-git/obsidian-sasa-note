@@ -1,0 +1,1 @@
+[起算時からの経過秒数を取得する](https://www.javadrive.jp/ruby/time_class/index6.html)

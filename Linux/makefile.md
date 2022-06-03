@@ -1,0 +1,3 @@
+CFLAGS, LDFLAGS, etc...  
+[Makefileの書き方メモ](https://qiita.com/nullpo24/items/716bad137f1264b776f5#ldflags-)
+
