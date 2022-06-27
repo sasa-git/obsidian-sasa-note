@@ -1,0 +1,1 @@
+[Pythonの可変長引数（*args, **kwargs）の使い方](https://note.nkmk.me/python-args-kwargs-usage/)
