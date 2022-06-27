@@ -8,3 +8,6 @@
 
 ResourceGroupでは、classificationタグが"無い"リソースを管理する みたいなことはできない。classificationタグが存在していないとダメ(値が空でも、タグ自体が存在していればおk)  
 タグ無しを検索できるのは、Tag Editorのみ
+
+[散らかったAWS環境の整理のためタグエディタを活用する](https://dev.classmethod.jp/articles/cleanup-with-tageditor/)
+
