@@ -8,3 +8,5 @@
 
 [Configルールを使ってAWSリソースの特定タグ有無をチェックする](https://dev.classmethod.jp/articles/config-rule-required-tags/)
 
+[AWS Config を使ってTagのチェックを行う。](https://qiita.com/kooohei/items/2d42017f7e734e22aac4)
+
