@@ -9,3 +9,6 @@
 [Pythonのfilter()でリストから条件を満たす要素を抽出・削除](https://note.nkmk.me/python-filter-usage/)
 
 [[Python] for文処理が1行で書ける！素敵なリスト内包表記](https://www.yoheim.net/blog.php?q=20150702)
+
+[Pythonのmap()でリストの要素に関数・処理を適用](https://note.nkmk.me/python-map-usage/)
+

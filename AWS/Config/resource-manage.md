@@ -15,3 +15,9 @@
 
 [AWS Config を使ってTagのチェックを行う。](https://qiita.com/kooohei/items/2d42017f7e734e22aac4)
 
+[AWS Config でのログ記録とモニタリング](https://docs.aws.amazon.com/ja_jp/config/latest/developerguide/security-logging-and-monitoring.html)
+
+[required-tags を使用した AWS Config ルールのステータスが「評価中」のままになっているのはなぜですか?](https://aws.amazon.com/jp/premiumsupport/knowledge-center/config-rule-required-tags/)
+
+> AWS Config の設定レコーダーは、AWS Config ルールと同じ AWS リージョンでオンになっており、設定されている必要があります。設定レコーダーのオンとオフを切り替えるには、「設定レコーダーの管理」を参照してください。
+

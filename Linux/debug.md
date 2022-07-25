@@ -2,3 +2,5 @@
 
 [利用しているポート番号からどのプロセスが利用しているか確認する](https://qiita.com/toshihirock/items/c6a09575c2d88c210483)
 
+[journalctl 最低限覚えておくコマンド](https://qiita.com/aosho235/items/9fbff75e9cccf351345c)
+
