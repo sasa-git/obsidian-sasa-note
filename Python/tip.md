@@ -2,3 +2,4 @@
 
 [[Locust/request.md]]
 
+[Python で Faker を使ってダミーデータを作成する](https://qiita.com/yunosuken/items/5835b6ba26981c56eeda)
