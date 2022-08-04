@@ -1,0 +1,80 @@
+# とりあえずこの構成で動くのを確認
+ersion: '3.8'
+services:
+  master:
+    platform: linux/amd64
+    build:
+      context: ./image-master
+      dockerfile: Dockerfile
+    environment:
+      - S3_BUCKET=staging-diet-loadtest-artifact
+      - S3_LOADTEST_OBJECT_KEY=8/18
+      - LOADTEST_ID=18
+      - WEB_HOST=https://stg-web.diet.drev.jp
+    ports:
+      - 1099
+    networks:
+      - loadtest-network
+    entrypoint: tail -f /dev/null
+
+  client:
+    platform: linux/amd64
+    build:
+      context: ./image-jmeter
+      dockerfile: Dockerfile
+    environment:
+      - S3_BUCKET=staging-diet-loadtest-artifact
+      - S3_LOADTEST_OBJECT_KEY=8/18
+      - LOADTEST_ID=18
+      - WEB_HOST=https://stg-web.diet.drev.jp
+    ports:
+      - 1099
+    networks:
+      - loadtest-network
+    entrypoint: tail -f /dev/null
+
+  slave:
+    platform: linux/amd64
+    deploy:
+      replicas: 3
+    build:
+      context: ./image-jmeter
+      dockerfile: Dockerfile
+    depends_on:
+      - master
+    ports:
+      - "30000"
+    networks:
+      - loadtest-network
+    # command: -s -n -j /dev/stdout -Dserver.rmi.ssl.disable=true -Jmode=Statistical
+    # command: -s -n -j=/dev/stdout -Dclient.rmi.localport=7000 -Dserver.rmi.localport=60000 -Dserver.rmi.ssl.disable=true -Jmode=Statistical 
+    # command: -s -n -j jmeter-server.log -Dclient.rmi.localport=7000 -Dserver.rmi.localport=61000 -Dserver.rmi.ssl.disable=true -Dserver_port=60000 -Jmode=Statistical
+    command: -s -n -j jmeter-server.log -Dserver.rmi.ssl.disable=true -Jmode=Statistical
+    # command: -s -n -j jmeter-server.log -Dclient.rmi.localport=7000 -Dserver.rmi.localport=60000 -Dserver.rmi.ssl.disable=true -Dserver_port=60000 -Jmode=Statistical -Djava.rmi.server.hostname=loadtest-cluster-slave-1
+    # entrypoint: 
+
+networks:
+  loadtest-network:
+    driver: bridge
+
+# ---
+# version:'3'
+
+# services:
+#   slave-1:
+#     image:jmeter
+#     volumes:
+#       - .:/mnt/jmeter
+#     command:-s -n -Jclient.rmi.localport=7000 -Jserver.rmi.localport=60000
+#   slave-2:
+#     image:jmeter
+#     volumes:
+#       - .:/mnt/jmeter
+#     command:-s -n -Jclient.rmi.localport=7000 -Jserver.rmi.localport=60000
+#   slave-3:
+#     image:jmeter
+#     volumes:
+#     - .:/mnt/jmeter
+#     command:-s -n -Jclient.rmi.localport=7000 -Jserver.rmi.localport=60000
+
+# docker run --net dockerjmeter_default -v "$(pwd)":/mnt/jmeter jmeter -n -X -Jclient.rmi.localport=7000 -R slave-1,slave-2,slave-3 -t /mnt/jmeter/test.jmx -l /mnt/jmeter/compose/result.jtl -j /mnt/jmeter/compose/jmeter.log
