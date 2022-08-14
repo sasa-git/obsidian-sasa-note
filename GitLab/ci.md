@@ -48,3 +48,6 @@ rspec:
     variables:
       - $RSPEC
 ```
+
+[Predefined environment variables reference](https://gitlab-docs.creationline.com/ee/ci/variables/predefined_variables.html)
+

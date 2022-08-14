@@ -7,3 +7,5 @@
 ## demo
 
 [live_view_todos](https://github.com/sasasoni/live_view_todos/blob/master/lib/live_view_todos_web/live/todo_live.html.leex)
+
+[Phoenix LiveViewによる動的サーバーサイドレンダリング３](https://www.870labo.com/posts/start-using-phoenix-liveview-3/)

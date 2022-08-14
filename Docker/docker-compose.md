@@ -5,3 +5,5 @@
 
 replicasがある場合、`loadtest-cluster-slave-1`のようなドメインで解決できる。 Taurus/jmeter-log/jmeter-distributed.md 参照
 
+[Compose における環境変数](https://matsuand.github.io/docs.docker.jp.onthefly/compose/environment-variables/)
+

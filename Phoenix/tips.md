@@ -5,3 +5,19 @@
 
 [mix.exsのapplicationsとextra_applicationsは何が違うのか](https://qiita.com/Tsuyoshi84/items/26eb65e92c7974dd163c)
 
+[EnumType](https://hexdocs.pm/enum_type/readme.html)
+
+[How to download or save files locally in Phoenix](https://stackoverflow.com/questions/49610937/how-to-download-or-save-files-locally-in-phoenix)  
+
+```elixir
+path = Application.app_dir(:my_app, "priv/prospectus.pdf")
+send_download(conn, {:file, path})
+```
+
+[Phoenix File Download](https://elixirforum.com/t/phoenix-file-download/13793)
+
+https://hexdocs.pm/phoenix/Phoenix.Controller.html#send_download/3
+
+[Testing AWS in Elixir](https://andrealeopardi.com/posts/testing-aws-in-elixir/)
+
+[Mocking with s3 ex_aws_s3](https://elixirforum.com/t/mocking-with-s3-ex-aws-s3/26094)

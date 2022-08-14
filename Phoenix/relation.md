@@ -94,3 +94,5 @@ iex(12)> Repo.get(Project, 100)
 SELECT p0.`id`, p0.`name`, p0.`account_id`, p0.`inserted_at`, p0.`updated_at` FROM `projects` AS p0 WHERE (p0.`id` = ?) [100]
 nil
 ```
+
+[Elixir Ecto Association](https://qiita.com/sand/items/5581497972473e308f05)

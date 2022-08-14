@@ -12,3 +12,7 @@
 
 [読み込み整合性](https://docs.aws.amazon.com/ja_jp/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html)
 
+[DynamoDBでデータを更新する際に使うUpdateExpressionについて一通りまとめてみた](https://dev.classmethod.jp/articles/dynamodb-update-expression-actions/)
+
+[DynamoDBから効率的に大量のデータを取得する方法](https://future-architect.github.io/articles/20210225/)
+

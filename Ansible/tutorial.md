@@ -15,3 +15,5 @@
 
 [Ansibleでのデバッグ方法](https://blog.s-style.co.jp/2018/10/2614/)
 
+[Ansibleの基本的な使い方](https://www.wakuwakubank.com/posts/483-tool-ansible/)
+

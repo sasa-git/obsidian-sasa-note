@@ -12,3 +12,5 @@ moxは、Behavioutを指定することで、それをもとにmockを生成し�
 Behaviourモジュールがあって、その下にmockと実際の環境で使うモジュールの実態がさくらんぼみたいな形でぶら下がってると想像すると良さそう  
 これで、テスト環境では外部APIを叩かず、mockで返すようにする、といったことができる
 
+[Mocking with s3 ex_aws_s3](https://elixirforum.com/t/mocking-with-s3-ex-aws-s3/26094)
+

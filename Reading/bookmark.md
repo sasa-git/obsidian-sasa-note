@@ -7,3 +7,6 @@
 [零細企業買収して売却した話](https://note.com/reisaikigyou_ma/n/ne8f3effb313c)
 
 [キースイッチの種類](https://archisite.co.jp/pick-up/keyboard-switch/)
+
+[Agones 超入門](https://medium.com/google-cloud-jp/agones-beginner-jp-5a6553e7e9a4)
+

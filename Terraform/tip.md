@@ -19,3 +19,6 @@ provider "aws" {
   }
 }
 ```
+
+[TerraformでAWS環境の構築する時に良く使う書き方](https://qiita.com/f96q/items/181c17459bfacf34c100)
+

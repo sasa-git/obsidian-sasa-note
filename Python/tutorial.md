@@ -6,3 +6,15 @@
 
 [Pythonで文字列を分割（区切り文字、改行、正規表現、文字数）](https://note.nkmk.me/python-split-rsplit-splitlines-re/)
 
+[Pythonでのグローバル（global）変数の宣言方法](https://uxmilk.jp/12505)  
+
+```py
+var = 1
+def add_ten(x):
+    global var
+    var = 10
+    print var + x
+ 
+add_ten(2)    # 12
+print var     # 10
+```
