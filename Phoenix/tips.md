@@ -21,3 +21,5 @@ https://hexdocs.pm/phoenix/Phoenix.Controller.html#send_download/3
 [Testing AWS in Elixir](https://andrealeopardi.com/posts/testing-aws-in-elixir/)
 
 [Mocking with s3 ex_aws_s3](https://elixirforum.com/t/mocking-with-s3-ex-aws-s3/26094)
+
+[LiveViewで認証付きのチャットアプリを構築する](https://www.870labo.com/posts/create-chat-app-with-liveview-part6)

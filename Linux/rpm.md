@@ -5,3 +5,8 @@
 
 [【 rpm 】コマンド（基礎編）――RPMパッケージをインストールする／アンインストールする](https://atmarkit.itmedia.co.jp/ait/articles/1609/13/news024.html)
 
+> memcachedがインストールされていないことを確認
+> $ rpm -aq | grep memcached
+> 
+> $ rpm -aq | sort
+> 〜packageのリストが表示〜
