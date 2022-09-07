@@ -14,3 +14,6 @@
 オススメ
 
 [yum と rpm の違い 〜パッケージ管理とは〜](https://hara-chan.com/it/infrastructure/yum-rpm/#i)
+
+リポジトリのリストを確認  
+`$ sudo yum repolist all`
