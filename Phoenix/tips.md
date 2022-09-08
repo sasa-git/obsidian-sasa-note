@@ -23,3 +23,5 @@ https://hexdocs.pm/phoenix/Phoenix.Controller.html#send_download/3
 [Mocking with s3 ex_aws_s3](https://elixirforum.com/t/mocking-with-s3-ex-aws-s3/26094)
 
 [LiveViewで認証付きのチャットアプリを構築する](https://www.870labo.com/posts/create-chat-app-with-liveview-part6)
+
+[作って学ぶPhoenix LiveView、チャットアプリの作成](https://qiita.com/pojiro/items/dc8c9d97be82f91560bf)
