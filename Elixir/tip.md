@@ -12,3 +12,6 @@ Map.from_struct(%User{name: "valim"})
 ```
 
 [Elixir マップの値を更新する方法３選](https://thr3a.hatenablog.com/entry/20210103/1609636577)
+
+[Elixir - do nothing under particular case condition](https://stackoverflow.com/questions/43647101/elixir-do-nothing-under-particular-case-condition)
+

@@ -25,3 +25,6 @@ https://hexdocs.pm/phoenix/Phoenix.Controller.html#send_download/3
 [LiveViewで認証付きのチャットアプリを構築する](https://www.870labo.com/posts/create-chat-app-with-liveview-part6)
 
 [作って学ぶPhoenix LiveView、チャットアプリの作成](https://qiita.com/pojiro/items/dc8c9d97be82f91560bf)
+
+[Phoenix 1.3のディレクトリ構造とContext](https://qiita.com/shufo/items/f0c85a100728a39dde13)
+
