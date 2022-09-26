@@ -9,3 +9,15 @@
 
 [Pythonではインスタンス変数をクラス定義直下に書いてはいけない(戒め)](https://qiita.com/kxphotographer/items/60588b7c747094eba9f1)
 
+[rand_str 関数を実装する](https://maku77.github.io/python/numstr/random-string.html)
+
+```py
+import random
+
+def rand_str(length):
+    chars = '23456789abcdefghijkmnopqrstuvwxzy'
+    return ''.join([random.choice(chars) for _ in range(length)])
+
+if __name__ == '__main__':
+    print(rand_str(7))
+```

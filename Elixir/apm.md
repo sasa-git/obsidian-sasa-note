@@ -6,3 +6,6 @@
 
 [splunk-otel-collector](https://github.com/signalfx/splunk-otel-collector/tree/main/deployments/fargate)
 
+[Telemetry](https://hexdocs.pm/telemetry/readme.html)  
+注: このライブラリはツールに依存しないため、OpenTelemetry とは直接関係ありません。
+

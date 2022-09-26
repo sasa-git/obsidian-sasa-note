@@ -5,6 +5,8 @@
 [Install Tailwind CSS with Phoenix](https://tailwindcss.com/docs/guides/phoenix)  
 公式ドキュメント
 
+[npmを使ったインストール方法: phx_gen_tailwind](https://github.com/kevinlang/phx_gen_tailwind)
+
 
 button() と link()
 

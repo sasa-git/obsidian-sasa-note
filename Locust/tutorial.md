@@ -6,3 +6,4 @@
 
 [Locust入門記事の次に読む記事](https://qiita.com/ta_ta_ta_miya/items/f548b1818b8c2bba5ecd)
 
+[locust を kubernetes にデプロイして負荷テストを実施してみる](https://zenn.dev/empenguin/articles/eda7535aeb0977)

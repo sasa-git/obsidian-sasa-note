@@ -6,3 +6,5 @@
 
 [Command Line Options](https://docs.locust.io/en/stable/configuration.html)
 
+[In locust How to get a response from one task and pass it to other task](https://stackoverflow.com/questions/35991355/in-locust-how-to-get-a-response-from-one-task-and-pass-it-to-other-task)
+

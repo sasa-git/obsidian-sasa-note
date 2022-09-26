@@ -18,3 +18,6 @@ def add_ten(x):
 add_ten(2)    # 12
 print var     # 10
 ```
+
+[Pythonのfor文でインデックスを同時に参照する：enumerate()](https://uxmilk.jp/8680)
+

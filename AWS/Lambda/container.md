@@ -13,3 +13,6 @@
 > 方法
 > 1. プロビジョニング済み同時実行を設定する
 > 2. 定期的に Lambda 関数を呼び出す
+
+[コンテナイメージとして定義された関数の呼び出し](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/invocation-images.html)
+

@@ -1,6 +1,6 @@
 # LSI/GSI
 
-⭐️[Amazon DynamoDB LSI/GSI を使ってみる](https://qiita.com/mksamba/items/6a39c95936bc25a6f93a)
+⭐️[【初心者】Amazon DynamoDB LSI/GSI を使ってみる](https://qiita.com/mksamba/items/6a39c95936bc25a6f93a)
 
 [DynamoDB のキー・インデックスわかりにくい！！！！](https://moyamoya.space/tech/aws/424/#DynamoDB-3)
 

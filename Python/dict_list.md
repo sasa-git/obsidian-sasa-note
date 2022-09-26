@@ -12,3 +12,21 @@
 
 [Pythonのmap()でリストの要素に関数・処理を適用](https://note.nkmk.me/python-map-usage/)
 
+[2つの辞書をマージする](https://www.python.ambitious-engineer.com/archives/1763)
+
+```python
+dict1 = {"a":1, "b":2}
+dict2 = {"c":3, "d":4}
+ 
+dict1.update(dict2) # dict1にdict2をマージする
+print(dict1)
+# {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+
+dict1 = {"a":1, "b":2}
+dict2 = {"c":3, "d":4}
+dict3 = dict(dict1, **dict2) # 第２引数はキーワード引数とする
+print(dict3)
+# {'b': 2, 'a': 1, 'd': 4, 'c': 3}
+```
+
+

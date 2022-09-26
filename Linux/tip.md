@@ -11,3 +11,6 @@
 [/etc/motdを変更しようぜ！](https://qiita.com/yuhtanak/items/fffb264078c3473b059c)
 
 [CentOS 7 の Hostname を変更する](https://qiita.com/notakaos/items/d18ab37bce2b25b2d5b0)
+
+[よく使うcurlコマンドのオプション](https://qiita.com/ryuichi1208/items/e4e1b27ff7d54a66dcd9)
+

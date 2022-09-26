@@ -17,3 +17,5 @@
 
 [Ansibleの基本的な使い方](https://www.wakuwakubank.com/posts/483-tool-ansible/)
 
+[シンプルなプロビジョニングツールAnsibleを試してみる](https://qiita.com/zakuro9715/items/d9ab6ffa1364a42b74b1)
+

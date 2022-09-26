@@ -10,3 +10,11 @@
 
 [Agones 超入門](https://medium.com/google-cloud-jp/agones-beginner-jp-5a6553e7e9a4)
 
+[有名企業のエンジニア向け研修資料まとめ](https://qiita.com/KNR109/items/f3268b311e11d5b821c0)
+
+[MySQLの歴史が面白い](https://qiita.com/nom_bom/items/75d409b303f4814143c8)
+
+[OSSのBIツール「Metabase」の使い方](https://zenn.dev/0yan/articles/14f0564f6abc069a8ab2)
+
+[LANケーブルのストレートとクロスの違い](https://note.cman.jp/network/lan_cable_cross.cgi)
+

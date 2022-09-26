@@ -14,3 +14,5 @@ rpmbuild時のテストをスキップしたい
 [テストなしのrpmbuild qemuspec](https://tutorialmore.com/questions-70532.htm)
 > `rpmbuild --nocheck`
 
+[RPMパッケージ作成メモ](http://www.02.246.ne.jp/~torutk/linux/centos5/rpmpackagebuild.html)
+

@@ -16,3 +16,6 @@
 
 [DynamoDBから効率的に大量のデータを取得する方法](https://future-architect.github.io/articles/20210225/)
 
+[TTL を有効化した DynamoDB でちょっと焦った話](https://blog.serverworks.co.jp/tech/2020/06/25/post-87641/)  
+> TTL を有効にした DynamoDB に対して有効期限切れのレコードを PutItem すると何も起きない
+
