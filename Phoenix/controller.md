@@ -27,3 +27,4 @@ end
 
 > Phoenixaction/2は、ルーターから一致した関数を呼び出すプラグをコントローラーに挿入します。デフォルトでは、conn と params を渡します。場合によってaction/2は、コントローラーのプラグをオーバーライドすると、接続から繰り返し取得する必要がある引数をアクションに挿入するのに便利な方法になります。たとえばconn.assigns.current_user、接続に を保存し、コントローラーのすべてのアクションに対してユーザーにすばやくアクセスしたい場合を想像してください。
 
+[[before_action :setup equivalent in Phoenix](https://stackoverflow.com/questions/46829496/before-action-setup-equivalent-in-phoenix)

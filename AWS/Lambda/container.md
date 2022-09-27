@@ -16,3 +16,8 @@
 
 [コンテナイメージとして定義された関数の呼び出し](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/invocation-images.html)
 
+[コンテナだけどサーバーレス！ AWS Lambda の最新機能をご紹介](https://dev.classmethod.jp/articles/awssummit2021-lambda-container-support/)
+
+[コンテナイメージで Python Lambda 関数をデプロイする](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/python-image.html)
+
+[awslambdaric](https://pypi.org/project/awslambdaric/)

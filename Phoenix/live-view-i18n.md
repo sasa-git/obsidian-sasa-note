@@ -6,3 +6,5 @@ assign()で入れたキーバリューはsocket.assignsで参照できる。rend
 render()内にlocale: @locale を入れておくことで_footer.html 自体が再レンダリングされるため、芋づる式に_footer 内のgettext()も更新される
 
 https://elixirforum.com/t/how-to-force-reevaluation-of-eex-tags-in-live-view-for-live-updating-gettext/32881
+
+[Using Gettext for internationalization](https://hexdocs.pm/phoenix_live_view/using-gettext.html)
