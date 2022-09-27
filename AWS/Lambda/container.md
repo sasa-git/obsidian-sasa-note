@@ -13,3 +13,9 @@
 > 方法
 > 1. プロビジョニング済み同時実行を設定する
 > 2. 定期的に Lambda 関数を呼び出す
+
+[コンテナだけどサーバーレス！ AWS Lambda の最新機能をご紹介](https://dev.classmethod.jp/articles/awssummit2021-lambda-container-support/)
+
+[コンテナイメージで Python Lambda 関数をデプロイする](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/python-image.html)
+
+[awslambdaric](https://pypi.org/project/awslambdaric/)
