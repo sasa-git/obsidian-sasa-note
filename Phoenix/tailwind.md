@@ -67,3 +67,44 @@ link()ではHTMLにaタグとしてレンダリングされる。aタグはイ�
   }
 }
 ```
+
+[Phoenix LiveView Tailwind Variants](https://fly.io/phoenix-files/phoenix-liveview-tailwind-variants/)  
+[Variantについて](https://tailwindcss.com/docs/plugins#adding-variants)
+
+これにより、Liveviewのイベントphx-submit-loadingなどで、`hover:xxx` や `focus:xxx` みたいに、`phx-submit-loading:xxx` の ような記述をCSSにできる
+
+```js assets/tailwind.config.js
+const plugin = require('tailwindcss/plugin')
+
+module.exports = {
+  content: [
+    "./js/**/*.js",
+    "../lib/*_web.ex",
+    "../lib/*_web/**/*.*ex"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require("@tailwindcss/forms"),
+    plugin(({addVariant}) => addVariant('phx-no-feedback', ['&.phx-no-feedback', '.phx-no-feedback &'])),
+    plugin(({addVariant}) => addVariant('phx-click-loading', ['&.phx-click-loading', '.phx-click-loading &'])),
+    plugin(({addVariant}) => addVariant('phx-submit-loading', ['&.phx-submit-loading', '.phx-submit-loading &'])),
+    plugin(({addVariant}) => addVariant('phx-change-loading', ['&.phx-change-loading', '.phx-change-loading &']))
+  ]
+}
+```
+
+```html hogehoge.html.heex
+<button
+  phx-click="send"
+  phx-disable-with="Sending..."
+  class="p-4 rounded-lg bg-indigo-600 phx-click-loading:animate-pulse"
+>
+  Send!
+</button>
+```
+
+[animate-pulse](https://tailwindcss.com/docs/animation#pulse)
+
+[DaisyUIインストール周りのフォーラムのやりとり(How to get DaisyUI and Phoenix to work?)](https://elixirforum.com/t/how-to-get-daisyui-and-phoenix-to-work/46612)
