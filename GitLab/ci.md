@@ -51,3 +51,5 @@ rspec:
 
 [Predefined environment variables reference](https://gitlab-docs.creationline.com/ee/ci/variables/predefined_variables.html)
 
+[CIサービスの自動ビルドをスキップする方法まとめ](https://qiita.com/vmmhypervisor/items/f10c77a375c2a663b300)
+

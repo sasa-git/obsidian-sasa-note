@@ -5,3 +5,5 @@
 
 [DBのインデックスと複合インデックス](https://qiita.com/towtow/items/4089dad004b7c25985e3)
 
+[MySQL クエリキャッシュの概要と導入・評価方法](https://weblabo.oscasierra.net/mysql-query-cache/)
+

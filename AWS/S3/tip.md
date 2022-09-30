@@ -4,3 +4,10 @@
 > S3 Glacier Flexible Retrieval または S3 Glacier Deep Archive に保存されている各オブジェクトの場合、Amazon S3 はメタデータに対する課金可能な 40 KB のオーバーヘッドを追加し、それは、S3 標準レートで請求される 8 KB と S3 Glacier Flexible Retrieval または S3 Deep Archive レートで請求される 32 KB から構成されます。
 
 [【AWS】S3ストレージクラスを適切に使い分ける](https://sayjoyblog.com/s3_storage_classes/)
+
+[S3からGlacierにライフサイクルで移行するときにお金がかかるので注意](https://blog.jicoman.info/2018/07/noticement-of-transition-from-s3-glacier/)
+
+[CloudTrailの証跡データをS3ライフサイクルでGlacierに移行する際の損益分岐点を探る](https://dev.classmethod.jp/articles/explore-breakeven-points-when-migrating-cloudtrail-trail-data-to-glacier-in-s3-lifecycles/#toc-3)
+
+[ライフサイクルポリシーでGlacierに移行するのは実は損？？](https://qiita.com/Ichi0124/items/19a05ea599bd13372586)
+

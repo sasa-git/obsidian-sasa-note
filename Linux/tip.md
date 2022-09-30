@@ -14,3 +14,16 @@
 
 [よく使うcurlコマンドのオプション](https://qiita.com/ryuichi1208/items/e4e1b27ff7d54a66dcd9)
 
+[これからSystemd入門する](https://qiita.com/bluesDD/items/eaf14408d635ffd55a18)
+
+[pidファイルに関して](https://skill-up-engineering.com/2018/06/27/pid%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6/)
+
+[systemdのserviceとpidファイルの関係。systemctl startの仕組み](https://blog.putise.com/systemd%E3%81%AEservice%E3%81%A8pid%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E9%96%A2%E4%BF%82%E3%80%82systemctl-start%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF/)
+
+[最低限知っておきたいsystemctlとjournalctlの使い方](https://www.karakaram.com/how-to-use-systemctl-journalctl/)
+
+[「/var/run」ディレクトリ](https://linuc.org/study/knowledge/523/)
+
+[[Linux] systemdのユニットファイルを自分で書いてプログラムをdaemon動作させてみる](https://zaki-hmkc.hatenablog.com/entry/2021/04/11/003202)  
+systemdの使い方の参考に
+

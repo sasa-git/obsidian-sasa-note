@@ -10,3 +10,6 @@
 > 
 > $ rpm -aq | sort
 > 〜packageのリストが表示〜
+
+[【 rpm 】コマンド（応用編その1）――パッケージの情報を調べる（1）](https://atmarkit.itmedia.co.jp/ait/articles/1609/20/news019.html)
+

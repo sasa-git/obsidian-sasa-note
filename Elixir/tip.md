@@ -44,3 +44,7 @@ iex> for c <- [72, 101, 108, 108, 111], into: "", do: <<c>>
 "Hello"
 ```
 
+[credoを使ってElixirでRuboCopみたいにlintチェックをしよう！](https://qiita.com/letusfly85/items/cf225814608251b2f65c)
+
+[Config](https://hexdocs.pm/elixir/1.13/Config.html#import_config/1)
+

@@ -17,3 +17,6 @@
 
 リポジトリのリストを確認  
 `$ sudo yum repolist all`
+
+[yumコマンドの基本操作とリポジトリの追加・削除方法のまとめ](https://onoredekaiketsu.com/yum-command-and-repository/#toc38)
+
