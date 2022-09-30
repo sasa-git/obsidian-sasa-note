@@ -110,5 +110,6 @@ module.exports = {
 [DaisyUIインストール周りのフォーラムのやりとり(How to get DaisyUI and Phoenix to work?)](https://elixirforum.com/t/how-to-get-daisyui-and-phoenix-to-work/46612)
 
 [heroicon用のelixir ライブラリ](https://github.com/mveytsman/heroicons_elixir/blob/main/LICENSE)  
+[類似ライブラリ](https://github.com/miguel-s/ex_heroicons)  
 `<Heroicons.cake />`みたいな感じで埋め込めるが、普通にheroiconのsvgコピペでも良さそう  
 [[HTML/icon.md]]
