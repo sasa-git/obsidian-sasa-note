@@ -7,10 +7,10 @@ services:
       context: ./image-master
       dockerfile: Dockerfile
     environment:
-      - S3_BUCKET=staging-diet-loadtest-artifact
+      - S3_BUCKET=staging-sample-loadtest-artifact
       - S3_LOADTEST_OBJECT_KEY=8/18
       - LOADTEST_ID=18
-      - WEB_HOST=https://stg-web.diet.drev.jp
+      - WEB_HOST=https://stg-web.sample.drev.jp
     ports:
       - 1099
     networks:
@@ -23,10 +23,10 @@ services:
       context: ./image-jmeter
       dockerfile: Dockerfile
     environment:
-      - S3_BUCKET=staging-diet-loadtest-artifact
+      - S3_BUCKET=staging-sample-loadtest-artifact
       - S3_LOADTEST_OBJECT_KEY=8/18
       - LOADTEST_ID=18
-      - WEB_HOST=https://stg-web.diet.drev.jp
+      - WEB_HOST=https://stg-web.sample.drev.jp
     ports:
       - 1099
     networks:

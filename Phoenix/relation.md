@@ -15,9 +15,9 @@ iex(39)> Service.get_project!(6) |> Repo.preload([:account])
 SELECT p0.`id`, p0.`name`, p0.`account_id`, p0.`inserted_at`, p0.`updated_at` FROM `projects` AS p0 WHERE (p0.`id` = ?) [6]
 [debug] QUERY OK source="accounts" db=5.3ms queue=0.1ms idle=1199.1ms
 SELECT a0.`id`, a0.`email`, a0.`name`, a0.`hashed_password`, a0.`confirmed_at`, a0.`inserted_at`, a0.`updated_at`, a0.`id` FROM `accounts` AS a0 WHERE (a0.`id` = ?) [6]
-%DietWeb.Service.Project{
+%SampleWeb.Service.Project{
   __meta__: #Ecto.Schema.Metadata<:loaded, "projects">,
-  account: #DietWeb.Service.Account<
+  account: #SampleWeb.Service.Account<
     __meta__: #Ecto.Schema.Metadata<:loaded, "accounts">,
     account_daily_stats: #Ecto.Association.NotLoaded<association :account_daily_stats is not loaded>,
     confirmed_at: nil,
@@ -42,7 +42,7 @@ SELECT a0.`id`, a0.`email`, a0.`name`, a0.`hashed_password`, a0.`confirmed_at`, 
 iex(40)> Service.get_project!(6)                            
 [debug] QUERY OK source="projects" db=5.9ms queue=0.1ms idle=1041.4ms
 SELECT p0.`id`, p0.`name`, p0.`account_id`, p0.`inserted_at`, p0.`updated_at` FROM `projects` AS p0 WHERE (p0.`id` = ?) [6]
-%DietWeb.Service.Project{
+%SampleWeb.Service.Project{
   __meta__: #Ecto.Schema.Metadata<:loaded, "projects">,
   account: #Ecto.Association.NotLoaded<association :account is not loaded>,
   account_id: 6,
@@ -61,9 +61,9 @@ iex(10)> Repo.get(Project, 6) |> Repo.preload([:account])
 SELECT p0.`id`, p0.`name`, p0.`account_id`, p0.`inserted_at`, p0.`updated_at` FROM `projects` AS p0 WHERE (p0.`id` = ?) [6]
 [debug] QUERY OK source="accounts" db=4.5ms idle=1967.7ms
 SELECT a0.`id`, a0.`email`, a0.`name`, a0.`hashed_password`, a0.`confirmed_at`, a0.`inserted_at`, a0.`updated_at`, a0.`id` FROM `accounts` AS a0 WHERE (a0.`id` = ?) [6]
-%DietWeb.Service.Project{
+%SampleWeb.Service.Project{
   __meta__: #Ecto.Schema.Metadata<:loaded, "projects">,
-  account: #DietWeb.Service.Account<
+  account: #SampleWeb.Service.Account<
     __meta__: #Ecto.Schema.Metadata<:loaded, "accounts">,
     account_daily_stats: #Ecto.Association.NotLoaded<association :account_daily_stats is not loaded>,
     confirmed_at: nil,

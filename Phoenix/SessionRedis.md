@@ -1,7 +1,6 @@
 ## phoenix のセッション管理にredisを使う
 
 主に2種類あるが、PhoenixSessionRedisを利用
-diet-saasでの導入時
 
 [PhoenixSessionRedis](https://hexdocs.pm/phoenix_session_redis/PhoenixSessionRedis.html)
 [Github](https://github.com/igrs/phoenix_session_redis)
@@ -12,7 +11,7 @@ diet-saasでの導入時
 # :poolboyを追加
 def application do
     [
-      mod: {DietWeb.Application, []},
+      mod: {SampleWeb.Application, []},
       extra_applications: [:logger, :poolboy, :runtime_tools, :gettext]
     ]
   end
