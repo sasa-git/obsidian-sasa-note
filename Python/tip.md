@@ -21,3 +21,10 @@ def rand_str(length):
 if __name__ == '__main__':
     print(rand_str(7))
 ```
+
+[Python で kubernetes を操作する超入門](https://hawksnowlog.blogspot.com/2021/03/getting-started-with-python-kubernetes-api.html#redis-%E3%81%AE-service-%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B)
+
+[Pythonのos.getenvとos.environ.getの違い](https://qiita.com/1ntegrale9/items/94ec4437f763aa623965)
+
+[[python]print文で色をつけてみよう](https://www.nomuramath.com/kv8wr0mp/)
+

@@ -31,3 +31,6 @@ $ kubectl -n kube-system describe secret deployment-controller-token-nn4ck
 `kubectl proxy`
 
 `http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/`にアクセス→tokenを入力してログイン
+
+[kubectlの接続設定ファイル（kubeconfig）の概要](https://qiita.com/immrshc/items/91208a9b30e701d1e7f2)
+

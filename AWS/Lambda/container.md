@@ -1,3 +1,5 @@
+[AWS Lambda の新機能 – コンテナイメージのサポート](https://aws.amazon.com/jp/blogs/news/new-for-aws-lambda-container-image-support/)
+
 [【速報】Lambdaのパッケージフォーマットとしてコンテナイメージがサポートされるようになりました！！ #reinvent](https://dev.classmethod.jp/articles/lambda-support-oci-container-image/)
 
 > サポートされないLambdaの機能  
@@ -21,6 +23,14 @@
 [コンテナイメージで Python Lambda 関数をデプロイする](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/python-image.html)
 
 [awslambdaric](https://pypi.org/project/awslambdaric/)
+
+[Lambda コンテナイメージをローカルでテストする](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/images-test.html)
+
+[Lambda Container Image Runtime 躓きメモ](https://zenn.dev/sandship/articles/7c00a06fe3ba8d)
+
+[カスタムランタイム の Lambda をコンテナイメージ化してみた](https://sadayoshi-tada.hatenablog.com/entry/2021/01/29/090600)
+
+[LambdaをカスタムDockerランタイムで開発する方法](https://future-architect.github.io/articles/20210914a/)
 
 Dockerfile 例
 
@@ -58,3 +68,13 @@ RUN pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}" \
 
 CMD ["app.handler"]
 ```
+
+カスタムランタイムのイメージの参考  
+[【AWS】Lambdaがコンテナイメージに対応！お手軽にAWS CLIなどの実行スケジュールも組める！](https://noname.work/2612.html)
+
+ALB x Lambda  
+[ターゲットとしての Lambda 関数](https://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/application/lambda-functions.html#enable-health-checks-lambda)
+
+M1 macなどarm アーキテクチャでbuildしたイメージは、関数作成時にarm64を指定すること！  
+[arm64 アーキテクチャの Lambda 関数で Runtime.InvalidEntrypoint が発生するときの対処方法](https://dev.classmethod.jp/articles/tsnote-runtime-invalidentrypoint-occurs-in-arm64-lambda-function/)
+
