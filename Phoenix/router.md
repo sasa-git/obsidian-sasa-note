@@ -15,3 +15,5 @@
 >
 >resources "/account", AccountController, only: [:show], singleton: true
 
+[Phoenix: Handle POST request body with Content-Type: application/json](https://stackoverflow.com/questions/41397527/phoenix-handle-post-request-body-with-content-type-application-json)
+

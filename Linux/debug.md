@@ -2,5 +2,16 @@
 
 [利用しているポート番号からどのプロセスが利用しているか確認する](https://qiita.com/toshihirock/items/c6a09575c2d88c210483)
 
+[lsofコマンド入門](https://qiita.com/hypermkt/items/905139168b0bc5c28ef2)  
+プロセスが開いているファイルを表示するコマンドです
+
 [journalctl 最低限覚えておくコマンド](https://qiita.com/aosho235/items/9fbff75e9cccf351345c)
+
+[topコマンドの使い方](https://qiita.com/k0kubun/items/7368c323d90f24a00c2f)
+
+[Linuxリソース確認系コマンドの使いドコロ](https://qiita.com/Tocyuki/items/2e811cedd53b58b10270)
+
+[CPU使用率を取得する方法（Linux、vmstatコマンド）](https://qiita.com/yasushi-jp/items/d821c7d90006671d5d66)
+
+[netstatコマンドの使い方、初心者に必要なことだけを説明する](https://network-beginners-handbook.com/netstat/)
 

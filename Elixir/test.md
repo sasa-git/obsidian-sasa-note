@@ -14,3 +14,5 @@
 
 testのsupportファイルなどは`test/support/xxx.ex`のような形で入れてあげれば大丈夫
 
+[Testing AWS in Elixir](https://andrealeopardi.com/posts/testing-aws-in-elixir/)
+

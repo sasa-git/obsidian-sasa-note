@@ -20,3 +20,5 @@
 
 [yumコマンドの基本操作とリポジトリの追加・削除方法のまとめ](https://onoredekaiketsu.com/yum-command-and-repository/#toc38)
 
+[yumインストールでエラー([Errno 256] No more mirrors to try)](https://qiita.com/miqpim/items/64e9e002ec35e26a9b1c)
+

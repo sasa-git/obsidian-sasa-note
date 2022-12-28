@@ -28,3 +28,22 @@ if __name__ == '__main__':
 
 [[python]print文で色をつけてみよう](https://www.nomuramath.com/kv8wr0mp/)
 
+[python: getattr](https://qiita.com/nabenabe0928/items/255b571c62c1b1d69ad4)
+
+[Pythonでパケットキャプチャ(pcapy)](https://rawgit.com/CoreSecurity/pcapy/master/pcapy.html#idp1073151854112)
+
+[【Python】subprocessのよく使う奴だけまとめたサンプルコード集](https://www.mathkuro.com/python/subprocess-popular-usage/)
+
+[真理値判定](https://docs.python.org/ja/3/library/stdtypes.html?highlight=dict)
+
+> 主な組み込みオブジェクトで偽と判定されるものを次に示します:
+> 
+> 偽であると定義されている定数: None と False
+> 
+> 数値型におけるゼロ: 0, 0.0, 0j, Decimal(0), Fraction(0, 1)
+> 
+> 空のシーケンスまたはコレクション: '', (), [], {}, set(), range(0)
+
+[Pythonのf文字列（フォーマット済み文字列リテラル）の使い方](https://note.nkmk.me/python-f-strings/)
+> 文字列メソッドformat()と同様に、f文字列中に波括弧{}を記述したい場合は{{, }}のように2回続けて書く。
+

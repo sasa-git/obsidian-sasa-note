@@ -28,3 +28,16 @@ https://hexdocs.pm/phoenix/Phoenix.Controller.html#send_download/3
 
 [Phoenix 1.3のディレクトリ構造とContext](https://qiita.com/shufo/items/f0c85a100728a39dde13)
 
+[Phoenixでcookieを取得／発行（システム間連携やサードパーティcookie利用、レガシーシステム接続で役立つ）](https://qiita.com/piacerex/items/46df95fd5c1dd75b3f96#cookie%E3%81%AE%E5%8F%96%E5%BE%97)
+
+[Reading custom request headers](https://elixirforum.com/t/reading-custom-request-headers/11731)
+
+[mcrumm/live_upload_example](https://github.com/mcrumm/live_upload_example)
+
+[daisyUIを組み込んだPhoenixアプリをDockerで本番展開しようとしたらデコった内容が反映されないときに確認すること](https://qiita.com/torifukukaiou/items/9a4b9add065219db339c)
+
+[Get current environment name](https://stackoverflow.com/questions/35010950/get-current-environment-name)
+
+> Mix.env() doesn't work in production or other environments where you use compiled releases (built using Exrm / Distillery) or when Mix just isn't available.
+> `config :your_app, env: config_env()`
+

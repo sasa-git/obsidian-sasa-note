@@ -78,3 +78,7 @@ ALB x Lambda
 M1 macなどarm アーキテクチャでbuildしたイメージは、関数作成時にarm64を指定すること！  
 [arm64 アーキテクチャの Lambda 関数で Runtime.InvalidEntrypoint が発生するときの対処方法](https://dev.classmethod.jp/articles/tsnote-runtime-invalidentrypoint-occurs-in-arm64-lambda-function/)
 
+* [New for AWS Lambda – Container Image Support](https://aws.amazon.com/jp/blogs/aws/new-for-aws-lambda-container-image-support/)
+
+サンプルがいくつか載ってる
+

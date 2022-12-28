@@ -6,3 +6,5 @@
 
 [CloudFrontを使用してS3静的ウェブサイトを提供する手順](https://dev.classmethod.jp/articles/cloudfront-s3-web/)
 
+[代替ドメイン名を別のディストリビューションに移動する](https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/CNAMEs.html#alternate-domain-names-move)
+

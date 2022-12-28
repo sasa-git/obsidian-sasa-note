@@ -6,3 +6,5 @@
 
 [gemconfig(gemのconfigを作るのに便利そう)](https://github.com/manuelmeurer/gem_config)
 
+[本番環境でbundle installすると、Gemfileが変更されたと怒られる](https://kajindowsxp.com/unable-bundle-install/)
+

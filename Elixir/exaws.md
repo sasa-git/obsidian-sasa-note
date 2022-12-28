@@ -12,3 +12,9 @@
 
 [ex_awsを使ってElixirからAWSのAPIを呼び出す](https://dev.classmethod.jp/articles/elixir-with-ex_aws/#toc-4)
 
+[Testing AWS in Elixir](https://andrealeopardi.com/posts/testing-aws-in-elixir/)
+
+[ExAws ドキュメント](https://hexdocs.pm/ex_aws/ExAws.html#request/2)
+
+[ex_aws_s3 テストサンプル](https://github.com/ex-aws/ex_aws_s3/blob/34bdff67da81835c4bd5b1361ec81b6765c462ed/test/lib/s3/download_test.exs)
+

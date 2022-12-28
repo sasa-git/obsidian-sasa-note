@@ -25,5 +25,3 @@ table.put_item(
 [比較演算子および関数リファレンス](https://docs.aws.amazon.com/ja_jp/amazondynamodb/latest/developerguide/Expressions.OperatorsAndFunctions.html)
 
 [DynamoDB を Python で操作する (boto3)](https://maku.blog/p/wht5epz/)
-
-

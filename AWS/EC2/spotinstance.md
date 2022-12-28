@@ -18,3 +18,5 @@
 
 [スポットリクエストステータス](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/spot-request-status.html#get-spot-instance-request-status)
 
+[Amazon EC2 だけじゃない︕最⾼のコスト効率を⼿に⼊れるためのスポットインスタンス使いこなし術](https://pages.awscloud.com/rs/112-TZM-766/images/AWS-27_AWS_Summit_Online_2020_CMP01.pdf)
+

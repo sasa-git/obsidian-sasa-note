@@ -21,3 +21,5 @@ print var     # 10
 
 [Pythonのfor文でインデックスを同時に参照する：enumerate()](https://uxmilk.jp/8680)
 
+[JSON エンコーダおよびデコーダ](https://docs.python.org/ja/3/library/json.html)
+

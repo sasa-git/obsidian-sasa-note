@@ -30,3 +30,6 @@ print(dict3)
 ```
 
 
+[Pythonの辞書（dict）のforループ処理（keys, values, items）](https://note.nkmk.me/python-dict-keys-values-items/)  
+> 各要素のキーkeyと値valueの両方に対してforループ処理を行いたい場合は、items()メソッドを使う。
+

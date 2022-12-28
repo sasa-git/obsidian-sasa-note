@@ -23,3 +23,18 @@ mysql> flush tables; # これでもクエリキャッシュを削除できる
 [FLUSH 構文](http://download.nust.na/pub6/mysql/doc/refman/5.1-olh/ja/flush.html)
 
 [問合せキャッシュのステータスとメンテナンス](https://dev.mysql.com/doc/refman/5.6/en/query-cache-status-and-maintenance.html)
+
+[13.7.1.6 GRANT ステートメント](https://dev.mysql.com/doc/refman/8.0/ja/grant.html)
+
+[パーティション(確認, 追加, 削除)](https://www.wakuwakubank.com/posts/788-mysql-partition/)
+
+[【MySQL】パーティションを確認する方法](https://oreno-it3.info/archives/712)
+
+[【Mysql】ERROR 1526 (HY000): Table has no partition for value エラーの解決](https://c-a-p-engineer.github.io/tech/2022/06/15/mysql-has-no-partition/)
+
+[【INNER JOIN, LEFT JOIN , RIGHT JOIN】テーブル結合の挙動をまとめてみた【SQL】](https://qiita.com/ngron/items/db4947fb0551f21321c0)
+
+[MySQLでサブクエリを使用する](https://dev.classmethod.jp/articles/mysql_sub_query/)
+
+[MySQLで累計を取得するためのSQL](https://zenn.dev/yuyuyu_6/articles/0d76835e924f5c)
+

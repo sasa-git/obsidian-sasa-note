@@ -11,3 +11,5 @@
 
 [ライフサイクルポリシーでGlacierに移行するのは実は損？？](https://qiita.com/Ichi0124/items/19a05ea599bd13372586)
 
+[Amazon S3の公開設定を色々とためしてみた](https://qiita.com/dayjournal/items/c827a17917127bff3906)
+

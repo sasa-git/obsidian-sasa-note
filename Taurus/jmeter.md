@@ -22,3 +22,6 @@ modules:
 
 [Parallel and distributed execution of multiple scenarios in taurus](https://stackoverflow.com/questions/60381423/parallel-and-distributed-execution-of-multiple-scenarios-in-taurus)
 
+[JMeter Executor](https://gettaurus.org/docs/JMeter/)  
+ramp-up, hold-forは上書きできる
+

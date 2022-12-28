@@ -49,3 +49,12 @@ iex> for c <- [72, 101, 108, 108, 111], into: "", do: <<c>>
 [Config](https://hexdocs.pm/elixir/1.13/Config.html#import_config/1)
 
 [Elixirのコードレビューで出るやつ](https://dev.to/seizans/elixir-4djj)
+
+[Elixir Best Practices - Deeply Nested Maps](https://dockyard.com/blog/2016/02/01/elixir-best-practices-deeply-nested-maps)
+
+[PhoenixのLogger](https://ymmtmsys.hatenablog.com/entry/2015/08/15/151841)
+
+[【Elixir/Phoenix】paramsライブラリでリクエストパラメータのバリデーションとキャストを楽ちんに行う](https://qiita.com/shkomine/items/98bb5c401e4267f43571)
+
+[ElixirでBehaviourを使用してDIPを実現する基礎知識](https://sanposhiho.com/posts/elixir-behaviour/)
+
