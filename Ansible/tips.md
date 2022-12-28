@@ -39,4 +39,6 @@ EC2のタグ情報を元にターゲットとなるインスタンスを決め�
 
 [[Ansible]インベントリプラグインを使ってEC2インスタンス情報を動的に取得する](https://zenn.dev/ohsawa0515/articles/enable-ec2-dynamic-inventory-by-ansible)
 
+[タスクをグルーピング : block](https://zenn.dev/y_mrok/books/ansible-no-tsukaikata/viewer/chapter17)
+
 

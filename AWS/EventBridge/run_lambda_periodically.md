@@ -20,3 +20,6 @@ https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/events/ScheduledEvents
 ```
   schedule_expression = "rate(1 day)"
 ```
+
+[AWS Lambdaで遊ぼう #2 Lambda関数を定期実行する](https://www.benjamin.co.jp/blog/technologies/lambda-2-eventbridge/)
+

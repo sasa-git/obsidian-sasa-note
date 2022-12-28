@@ -22,3 +22,7 @@ replicasがある場合、`loadtest-cluster-slave-1`のようなドメインで�
 > Goによる実装なので、既存のエコシステム（Docker CLIのSDKなど）を利用できる
 > 実際内部ではSDKを使ってDocker Engineとやりとりしている
 
+[docker-composeの--build-argオプションを利用して、Dockerfileでビルドされるコンテナまで環境変数を渡す](https://qiita.com/yuta_vamdemic/items/7be33ade88a008255930)
+
+[docker-compose コマンドでの args:, environment:, env_file: 及び .env ファイルの使い方](https://qiita.com/hokutoasari/items/9043ed26402d6860d0a5)
+

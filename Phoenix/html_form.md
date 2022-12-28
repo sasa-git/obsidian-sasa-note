@@ -6,3 +6,5 @@
 
 [Triggering a Phoenix Controller Action From a Form in a LiveView](https://fly.io/phoenix-files/phx-trigger-action/)
 
+[Phoenix LiveView Uploads Deep Dive](https://www.youtube.com/watch?v=PffpT2eslH8)
+

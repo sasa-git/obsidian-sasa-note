@@ -4,3 +4,5 @@
 
 [Railsでコネクションプール①　初心者→中級者へのSTEP23/25](https://qiita.com/kamohicokamo/items/2414248c19e6e2fca7b3)
 
+[Railsのbundle install –deploymentとは何なのか](https://techracho.bpsinc.jp/hachi8833/2016_08_29/25298)
+

@@ -38,3 +38,11 @@ mysql> flush tables; # これでもクエリキャッシュを削除できる
 
 [MySQLで累計を取得するためのSQL](https://zenn.dev/yuyuyu_6/articles/0d76835e924f5c)
 
+[6.2.10 ロールの使用](https://dev.mysql.com/doc/refman/8.0/ja/roles.html#roles-checking)
+
+[MySQL8.0ではGRANT構文でユーザを作成できない](https://www7390uo.sakura.ne.jp/wordpress/archives/456)
+
+[RDSのMySQLでGRANT文が通らない](https://qiita.com/tisk_jdb/items/9c07da5811f95f6b7f3d)
+
+[MySQL 8.0から追加されたロール機能について](https://blog.s-style.co.jp/2018/07/2123/)
+

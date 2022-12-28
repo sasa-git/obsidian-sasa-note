@@ -15,3 +15,7 @@
 
 [netstatコマンドの使い方、初心者に必要なことだけを説明する](https://network-beginners-handbook.com/netstat/)
 
+[最低限知っておきたいsystemctlとjournalctlの使い方](https://www.karakaram.com/how-to-use-systemctl-journalctl/)
+
+[systemd systemctlでデーモン起動しない場合のログ確認方法](https://kakts-tec.hatenablog.com/entry/2022/03/10/010620)
+

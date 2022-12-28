@@ -10,3 +10,8 @@ portsは指定したポートが外部に公開されるので、誰でもアク
 
 [Dockerfileの"ENV"と"ARG"と"環境変数"について](https://techblog.recochoku.jp/1979)
 
+[プラットフォームに応じて自動設定されるグローバル ARG 変数](https://matsuand.github.io/docs.docker.jp.onthefly/engine/reference/builder/#automatic-platform-args-in-the-global-scope)  
+この機能は BuildKit バックエンドを用いている場合にのみ利用可能です。
+
+[BuildKit によるビルドの有効化](https://matsuand.github.io/docs.docker.jp.onthefly/develop/develop-images/build_enhancements/)
+
